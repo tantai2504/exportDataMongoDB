@@ -1,13 +1,10 @@
-// const dbURI = 'mongodb+srv://salesbay:7hT1KKp02C8Vz4J3@sbay.vgcgzxf.mongodb.net/sbayfinal2_workplace?retryWrites=true&w=majority';
-
 const { exec } = require('child_process');
 const fs = require('fs-extra');
 const path = require('path');
 const mongoose = require('mongoose');
 
 // Kết nối với MongoDB
-const dbURI =
-	'mongodb+srv://salesbay:7hT1KKp02C8Vz4J3@sbay.vgcgzxf.mongodb.net/sbayfinal_workplace?retryWrites=true&w=majority';
+const dbURI ='mongodb+srv://salesbay:7hT1KKp02C8Vz4J3@sbay.vgcgzxf.mongodb.net/sbayfinal_workplace?retryWrites=true&w=majority';
 	const localURL = "mongodb://localhost:27017/sbay_workplace";
 mongoose.connect(localURL, {
 	useNewUrlParser: true,
