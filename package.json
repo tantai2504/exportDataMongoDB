@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs-extra": "^11.2.0",
+    "mongoose": "^8.5.2",
+    "path": "^0.12.7"
+  }
+}
